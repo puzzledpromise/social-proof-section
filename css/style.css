@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+}
+
+main{
+    max-width: 375px;
+    width: 90%;
+    margin: 5em auto 0 auto;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.mission{
+    margin-top: 1.1rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    color:  hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+.rating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 0.5rem;
+}
+
+.rating-text{
+    margin-top: 0.8rem;
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.testimonial{
+    background-color:hsl(300, 43%, 22%);
+    border-radius: 0.5rem;
+    padding: 2.5em  2em 2em 2em;
+}
+
+.buyer{
+    display: flex;
+    
+}
+
+.avatar{
+    border-radius: 100%;
+    height: 2.5rem;
+    margin-right: 1.5em;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.status{
+    color: hsl(333, 80%, 67%);
+    font-size: 0.8rem;
+}
+
+.statement{
+    color:hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    margin-top: 1.6rem;
+}
